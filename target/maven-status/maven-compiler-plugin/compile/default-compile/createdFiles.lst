@@ -1,0 +1,8 @@
+test\LoginTest.class
+com\mycompany\genad\LoginPage.class
+com\mycompany\genad\GenerateAdPage.class
+com\mycompany\genad\SignupPage.class
+test\GenerateAdTest.class
+utils\TestBase.class
+com\mycompany\genad\Genad.class
+test\SignupTest.class
