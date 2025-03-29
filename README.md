@@ -1,6 +1,6 @@
-# 🧪 Playwright Testing with Page Object Model (POM)
+# 🧪 HNG Stage 8 Task (GenzAD QA Team)
 
-This repository includes **Playwright** tests using the **Page Object Model (POM)** methodology. POM helps to create a structured and scalable approach to testing by separating the UI logic from the test cases.
+This repository includes **Playwright** tests using the **Page Object Model (POM)** methodology. POM helps to create a structured and scalable approach to testing by separating the UI logic from the test cases. Written by GenzAd QA team using Java.
 
 ---
 
@@ -17,15 +17,16 @@ This repository includes **Playwright** tests using the **Page Object Model (POM
 The project follows a modular Page Object Model (POM) structure:
 
 ```plaintext
-tests/
+genzad/
 ├── pages/                    # Page object files
 │   ├── login_page.ts         # Login page object
 │   ├── signup_page.ts        # Signup page object
 │   ├── dashboard_page.ts     # Dashboard page object
 │   └── ad_generation_page.ts # Ad generation page object
-├── specs/                    # Test files
+├── test/                    # Test files
 │   ├── login.spec.ts         # Login test cases
 │   ├── signup.spec.ts        # Signup test cases
 │   ├── dashboard.spec.ts     # Dashboard test cases
 │   └── ad_generation.spec.ts # Ad generation test cases
-└── playwright.config.ts      # Playwright configuration
+└── utils/
+    └── TestBase.java         #  Base clase
